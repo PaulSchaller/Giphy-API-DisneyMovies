@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(document).ready(function() {
 // An array of Disney movies.  New Disney movies can be added to this array
 var topics = ["Snow White and the Seven Dwarfs", "Star Wars: The Force Awakens", "101 Dalmatians", "The Lion King", "Fantasia", "Mary Poppins", "The Avengers", "The Jungle Book ", "Sleeping Beauty", "Pinocchio"];
 
@@ -10,7 +10,7 @@ function displayButtons(){
     $("#AreaForButtons").empty(); // erases anything in this div id 
     for (var i = 0; i < topics.length; i++){
         var gifButton = $("<button>");
-        gifButton.addClass("topic");
+        gifButton.addClass("topicA");
         gifButton.addClass("btn btn-primary")
         gifButton.attr("data-name", topics[i]);
         gifButton.text(topics[i]);
@@ -22,6 +22,7 @@ function displayButtons(){
 // Function that displays all of the gifs
 function displayGiphy(){
     var topic = $(this).attr("data-name");
+    console.log(topic);
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=dc6zaTOxFJmzC&limit=10";
     console.log(queryURL); // displays the constructed url
 
@@ -79,11 +80,11 @@ function addNewButton(){
 
 
 // Function Calls
-displayButtons(); 
+displayButtons();
 addNewButton();
 
 // Document Event Listeners (change still and animate on clicks)
-$(document).on("click", ".action", displayGiphy());
+$(document).on("click", ".topicA", displayGiphy);
 $(document).on("click", ".image", function(){
     var state = $(this).attr('data-state');
     if ( state == 'still'){
