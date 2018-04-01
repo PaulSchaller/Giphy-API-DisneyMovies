@@ -2,11 +2,11 @@
 
 ## This web app displays GIFs from a Disney movie that the user selects.
 
-## To do this, I used an api from the website of Giphy.  The program is able to dynamically create buttons for previously
-## not included Disney movies that the user wants to use to pull up GIFs.  The GIF can be made to be still or to move, based 
-## on the user clicking it.  
+To do this, I used an api from the website of Giphy.  The program is able to dynamically create buttons for previously
+not included Disney movies that the user wants to use to pull up GIFs.  The GIF can be made to be still or to move, based 
+on the user clicking it.  
 
-## To do this project, I used javascript, jQuery, html, and css.
+To do this project, I used javascript, jQuery, html, and css.
 
 This project is deployed on github pages at https://paulschaller.github.io/Giphy-API-DisneyMovies/
 
