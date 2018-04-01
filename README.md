@@ -17,12 +17,7 @@ This is the initial screen.  There are buttons for ten Disney movies that the us
 ![2018-04-01 4](https://user-images.githubusercontent.com/30198872/38175091-08365bb0-35a5-11e8-8b07-ec3d5d0dfc72.png)
 
 
-The user clicks on *The Lion King* button.  Ten GIFs then populate the screen.
-![2018-04-01 5](https://user-images.githubusercontent.com/30198872/3817To5087-fb5a9938-35a4-11e8-8a54-9e437cbf2344.png)
-
-
-
-The user can click on one of the GIFs to set it into motion.  By clicking on the GIF again, the motion will stop.
+The user clicks on *The Lion King* button.  Ten GIFs then populate the screen.  The user can click on one of the GIFs to set it into motion.  By clicking on the GIF again, the motion will stop.
 ![2018-04-01 6](https://user-images.githubusercontent.com/30198872/38175086-f50c8474-35a4-11e8-8fbf-2e10603c033f.png)
 
 
